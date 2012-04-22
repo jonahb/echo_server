@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C3DC63E1543EA49008CA31F /* EchoServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC6131543E977008CA31F /* EchoServer.m */; };
+		8C3DC63F1543EA49008CA31F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC61C1543E977008CA31F /* main.m */; };
+		8C3DC6401543EA49008CA31F /* SocketAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC61E1543E977008CA31F /* SocketAddress.m */; };
+		8C3DC6411543EA49008CA31F /* Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC62B1543E9EA008CA31F /* Address.m */; };
+		8C3DC6421543EA49008CA31F /* DatagramSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC62D1543E9EA008CA31F /* DatagramSocket.m */; };
+		8C3DC6431543EA49008CA31F /* IPv4Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC6311543E9F1008CA31F /* IPv4Address.m */; };
+		8C3DC6441543EA49008CA31F /* IPv4SocketAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC6331543E9F1008CA31F /* IPv4SocketAddress.m */; };
+		8C3DC6451543EA49008CA31F /* IPv6Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC6351543E9F1008CA31F /* IPv6Address.m */; };
+		8C3DC6461543EA49008CA31F /* IPv6SocketAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DC6371543E9F1008CA31F /* IPv6SocketAddress.m */; };
+		8C3DC6481543EA49008CA31F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD66ECD15428DE0005F8B10 /* CoreServices.framework */; };
+		8C3DC6491543EA49008CA31F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD66EBD15426DE8005F8B10 /* Foundation.framework */; };
+		8C3DC64A1543EA49008CA31F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD66EAA15426CB9005F8B10 /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C3DC64B1543EA49008CA31F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C3DC6121543E977008CA31F /* EchoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EchoServer.h; sourceTree = "<group>"; };
+		8C3DC6131543E977008CA31F /* EchoServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EchoServer.m; sourceTree = "<group>"; };
+		8C3DC61C1543E977008CA31F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C3DC61D1543E977008CA31F /* SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketAddress.h; sourceTree = "<group>"; };
+		8C3DC61E1543E977008CA31F /* SocketAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketAddress.m; sourceTree = "<group>"; };
+		8C3DC62A1543E9EA008CA31F /* Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Address.h; sourceTree = "<group>"; };
+		8C3DC62B1543E9EA008CA31F /* Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Address.m; sourceTree = "<group>"; };
+		8C3DC62C1543E9EA008CA31F /* DatagramSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatagramSocket.h; sourceTree = "<group>"; };
+		8C3DC62D1543E9EA008CA31F /* DatagramSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatagramSocket.m; sourceTree = "<group>"; };
+		8C3DC6301543E9F1008CA31F /* IPv4Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv4Address.h; sourceTree = "<group>"; };
+		8C3DC6311543E9F1008CA31F /* IPv4Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPv4Address.m; sourceTree = "<group>"; };
+		8C3DC6321543E9F1008CA31F /* IPv4SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv4SocketAddress.h; sourceTree = "<group>"; };
+		8C3DC6331543E9F1008CA31F /* IPv4SocketAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPv4SocketAddress.m; sourceTree = "<group>"; };
+		8C3DC6341543E9F1008CA31F /* IPv6Address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv6Address.h; sourceTree = "<group>"; };
+		8C3DC6351543E9F1008CA31F /* IPv6Address.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPv6Address.m; sourceTree = "<group>"; };
+		8C3DC6361543E9F1008CA31F /* IPv6SocketAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv6SocketAddress.h; sourceTree = "<group>"; };
+		8C3DC6371543E9F1008CA31F /* IPv6SocketAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPv6SocketAddress.m; sourceTree = "<group>"; };
+		8C3DC64F1543EA49008CA31F /* EchoServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EchoServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD66EAA15426CB9005F8B10 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		8CD66EBD15426DE8005F8B10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CD66ECD15428DE0005F8B10 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C3DC6471543EA49008CA31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3DC6481543EA49008CA31F /* CoreServices.framework in Frameworks */,
+				8C3DC6491543EA49008CA31F /* Foundation.framework in Frameworks */,
+				8C3DC64A1543EA49008CA31F /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C3DC5E81543E15C008CA31F /* EchoServer */ = {
+			isa = PBXGroup;
+			children = (
+				8C3DC6121543E977008CA31F /* EchoServer.h */,
+				8C3DC6131543E977008CA31F /* EchoServer.m */,
+				8C3DC61C1543E977008CA31F /* main.m */,
+			);
+			name = EchoServer;
+			sourceTree = "<group>";
+		};
+		8C3DC6291543E9D1008CA31F /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				8C3DC62A1543E9EA008CA31F /* Address.h */,
+				8C3DC62B1543E9EA008CA31F /* Address.m */,
+				8C3DC62C1543E9EA008CA31F /* DatagramSocket.h */,
+				8C3DC62D1543E9EA008CA31F /* DatagramSocket.m */,
+				8C3DC6301543E9F1008CA31F /* IPv4Address.h */,
+				8C3DC6311543E9F1008CA31F /* IPv4Address.m */,
+				8C3DC6321543E9F1008CA31F /* IPv4SocketAddress.h */,
+				8C3DC6331543E9F1008CA31F /* IPv4SocketAddress.m */,
+				8C3DC6341543E9F1008CA31F /* IPv6Address.h */,
+				8C3DC6351543E9F1008CA31F /* IPv6Address.m */,
+				8C3DC6361543E9F1008CA31F /* IPv6SocketAddress.h */,
+				8C3DC6371543E9F1008CA31F /* IPv6SocketAddress.m */,
+				8C3DC61D1543E977008CA31F /* SocketAddress.h */,
+				8C3DC61E1543E977008CA31F /* SocketAddress.m */,
+			);
+			name = Socket;
+			sourceTree = "<group>";
+		};
+		8CD66E9B15426CB9005F8B10 = {
+			isa = PBXGroup;
+			children = (
+				8C3DC5E81543E15C008CA31F /* EchoServer */,
+				8C3DC6291543E9D1008CA31F /* Socket */,
+				8CD66EA915426CB9005F8B10 /* Frameworks */,
+				8CD66EA715426CB9005F8B10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD66EA715426CB9005F8B10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3DC64F1543EA49008CA31F /* EchoServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD66EA915426CB9005F8B10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CD66ECD15428DE0005F8B10 /* CoreServices.framework */,
+				8CD66EBD15426DE8005F8B10 /* Foundation.framework */,
+				8CD66EAA15426CB9005F8B10 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C3DC63C1543EA49008CA31F /* EchoServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C3DC64C1543EA49008CA31F /* Build configuration list for PBXNativeTarget "EchoServer" */;
+			buildPhases = (
+				8C3DC63D1543EA49008CA31F /* Sources */,
+				8C3DC6471543EA49008CA31F /* Frameworks */,
+				8C3DC64B1543EA49008CA31F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoServer;
+			productName = EchoServer;
+			productReference = 8C3DC64F1543EA49008CA31F /* EchoServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD66E9D15426CB9005F8B10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Symbolic;
+			};
+			buildConfigurationList = 8CD66EA015426CB9005F8B10 /* Build configuration list for PBXProject "EchoServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CD66E9B15426CB9005F8B10;
+			productRefGroup = 8CD66EA715426CB9005F8B10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C3DC63C1543EA49008CA31F /* EchoServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C3DC63D1543EA49008CA31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3DC63E1543EA49008CA31F /* EchoServer.m in Sources */,
+				8C3DC63F1543EA49008CA31F /* main.m in Sources */,
+				8C3DC6401543EA49008CA31F /* SocketAddress.m in Sources */,
+				8C3DC6411543EA49008CA31F /* Address.m in Sources */,
+				8C3DC6421543EA49008CA31F /* DatagramSocket.m in Sources */,
+				8C3DC6431543EA49008CA31F /* IPv4Address.m in Sources */,
+				8C3DC6441543EA49008CA31F /* IPv4SocketAddress.m in Sources */,
+				8C3DC6451543EA49008CA31F /* IPv6Address.m in Sources */,
+				8C3DC6461543EA49008CA31F /* IPv6SocketAddress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C3DC64D1543EA49008CA31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = EchoServer;
+			};
+			name = Debug;
+		};
+		8C3DC64E1543EA49008CA31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = EchoServer;
+			};
+			name = Release;
+		};
+		8CD66EB115426CB9005F8B10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8CD66EB215426CB9005F8B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C3DC64C1543EA49008CA31F /* Build configuration list for PBXNativeTarget "EchoServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C3DC64D1543EA49008CA31F /* Debug */,
+				8C3DC64E1543EA49008CA31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD66EA015426CB9005F8B10 /* Build configuration list for PBXProject "EchoServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD66EB115426CB9005F8B10 /* Debug */,
+				8CD66EB215426CB9005F8B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD66E9D15426CB9005F8B10 /* Project object */;
+}
